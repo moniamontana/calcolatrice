@@ -10,13 +10,14 @@
     <input class="area" name="monitor" value=""placeholder="0">
     <table id="calc">
      <td><button onclick="digit('+');">+</button></td>
-      <td><button value="-" onclick="digit('-');"></td>
+      <td><button onclick="digit('-');">-</button></td>
       <td><button value="*" onclick="digit('*');"></td>
       <td><button value="/" onclick="ar('/');"></td>
     </tr>
     <td><button value="7" onclick="digit(7);"></td>
     <td><button value="8" onclick="digit(8);"></td>
     <td><button value="9" onclick="digit(9);"></td>
+      <td rowspan="4"><button onclick="result();">=</button></td>
       <tr>
     <td><button value="4" onclick="digit(4);"></td>
     <td><button value="5" onclick="digit(5);"></td>
@@ -29,7 +30,6 @@
     <td><button value="0" onclick="digit(0);" ></td>
     <td><button value="canc" onclick="digit('canc');"></td>
     <td><button value=","onclick="digit('.');"></td>
-    <td><button value="=" onclick="result();"></td>
       </tr>  
     </table>
   </form>
