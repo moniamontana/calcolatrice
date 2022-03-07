@@ -1,29 +1,39 @@
+<html>
+<head>
+<link href="stile.css" rel="stylesheet" type="text/css">
+La calcolatrice di Monia
+</head>
+
+<body>
 <div id="La mia calcolatrice">
   <form name="form">
     <input class="area" name="monitor" value=""placeholder="0">
     <table id="calc">
-     <td><input type="button" value="+" onclick="digit(+);"></td>
-      <td><input type="button" value="-" onclick="digit(-);"></td>
-      <td><input type="button" value="*" onclick="digit(*);"></td>
-      <td><input type="button" value="/" onclick="ar('/');"></td>
+     <td><button value="+" onclick="digit('+');"></td>
+      <td><button value="a" onclick="digit('-');"></td>
+      <td><button value="*" onclick="digit('*');"></td>
+      <td><button value="/" onclick="ar('/');"></td>
     </tr>
-    <td><input type="button" value="7" onclick="digit(7);"></td>
-    <td><input type="button" value="8" onclick="digit(8);"></td>
-    <td><input type="button" value="9" onclick="digit(9);"></td>
+    <td><button value="7" onclick="digit(7);"></td>
+    <td><button value="8" onclick="digit(8);"></td>
+    <td><button value="9" onclick="digit(9);"></td>
       <tr>
-    <td><input type="button" value="4" onclick="digit(4);"></td>
-    <td><input type="button" value="5" onclick="digit(5);"></td>
-    <td><input type="button" value="6" onclick="digit(6);"></td> 
+    <td><button value="4" onclick="digit(4);"></td>
+    <td><button value="5" onclick="digit(5);"></td>
+    <td><button value="6" onclick="digit(6);"></td> 
       <tr>
-    <td><input type="button" value="1" onclick="digit(1);"></td>
-    <td><input type="button" value="2" onclick="digit(2);"></td>
-    <td><input type="button" value="3" onclick="digit(3);"></td> 
+    <td><button value="1" onclick="digit(1);"></td>
+    <td><button value="2" onclick="digit(2);"></td>
+    <td><button value="3" onclick="digit(3);"></td> 
       <tr>
-    <td><input type="button" value="0" onclick="digit(0);" ></td>
-    <td><input type="button" value="canc" onclick="digit('canc');"></td>
-    <td><input type="button" value=","onclick="digit('.');"></td>
-    <td><input type="button" value="=" onclick="result();"></td>
+    <td><button value="0" onclick="digit(0);" ></td>
+    <td><button value="canc" onclick="digit('canc');"></td>
+    <td><button value=","onclick="digit('.');"></td>
+    <td><button value="=" onclick="result();"></td>
       </tr>  
     </table>
   </form>
  </div>
+</body>
+</html>
+
